@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+@media screen and (max-width: 768px) {
+    .logo{
+    float: none;
+    text-align: center;
+  }
+ header ul li {
+      float: none;
+      text-align: center;
+
+  }
+
+  #middal button{
+    float: none;
+    text-align: center;
+  } 
+
+   }
+body{
+    background-image:
+     url(pexels-irina-iriser-1408221.jpg);
+     background-size: cover;
+     height: 100vh;
+     background-repeat: no-repeat;
+    
+}
+*{
+    margin: 0;
+    padding: 0; 
+    font-family:'Lora' ;
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+header ul {
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+   
+}
+header ul li{
+    float: right;
+    margin-right:30px ;  
+   
+}
+header ul li a{
+    padding: 6px 15px ;
+    border-radius:20px ;
+}
+header ul li a:hover,#active{
+  background: #fff;
+  color: rgb(209, 50, 103);
+}
+
+#middal{
+    width: 500px; height: 300px; margin: auto;  padding:0px; margin-top:  200px;
+}
+
+#middal button{
+    font-size: 35px;
+    padding: 8px 12px;
+      margin-left: 150px;
+     border-radius: 10px;
+     border: 2px solid transparent;
+      
+      
+}
+#middal button a{
+    color: rgb(209, 50, 103);
+    cursor:pointer ;
+}
+#middal button a:hover{
+    color:white;
+}
+
+#middal button:hover{
+    background-color: transparent;
+    border-color: #fff;
+}
+
+
+
+
+

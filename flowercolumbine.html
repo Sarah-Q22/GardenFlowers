@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+
+<title>Flower Columbine</title>
+<style>
+  
+    *{
+        margin: 0;
+        padding: 0; 
+        font-family:'Lora' ;
+    }
+    body{
+        background-image:linear-gradient( to right ,rgba(0, 0, 0, 0.475),rgba(0, 0, 0, 0.237)), url(background.jpg);
+        background-size: cover;
+        height: 100vh;
+        background-repeat: no-repeat;
+       
+    }
+    
+    a{
+        text-decoration: none;
+        color: #d13267;
+    }
+    header{
+      display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px;
+    }
+    
+    header ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+       
+    }
+    header ul li{
+        margin-right:30px ;
+       
+    }
+    header ul li a{
+        padding: 6px 15px ;
+        border-radius:20px ;
+    }
+    header ul li a:hover,#active{
+      background: #fff;
+      color: #d13267;
+    }
+    #table{
+     width: 1000px; height: 500px ; margin: auto; margin-top: 100px;overflow-x: auto;
+    }
+    table, td, th {  
+      border: 2px solid black;
+      text-align: center;
+    }
+    
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      height: 250px;
+      background-color: rgba(0, 0, 0, 0.379);
+    }
+    
+    th, td {
+      padding: 10px;
+      color: white;
+    }
+    td{
+    text-align: justify;
+}
+
+      
+      </style>
+    </head>
+    <body>
+        <div>
+            <header>
+             <h2><a href="index.html" class="logo" style="font-size: 30px;">GardenFlowers</a></h2>
+               <ul>
+                <li><a href="index.html" id="active">Home</a></li>
+                <li><a href="flowers.html">Flowers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="team.html">Team</a></li>
+               </ul>
+            </header>
+        </div>
+        
+        <div id="table">
+            <table>
+                <tr>
+                  <th>Flower Name</th>
+                  <th>Informaion</th>
+                  <th>Video</th>
+                </tr>
+                <tr>
+                  <td>Columbine</td>
+                  <td>Aquilegia (common names: granny's bonnet,columbine) is a genus of about 60–70 species of perennial plants that are found in meadows, 
+                    woodlands, and at higher altitudes throughout the Northern Hemisphere,
+                     known for the spurred petals of their flowers.</td>
+                  <td><video src="Colum.mp4" width="320" height="240" controls></video></td>
+                </tr>      
+        </div>
+       
+ </body>
+ </html>

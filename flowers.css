@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+
+
+
+@media screen and (max-width: 768px) {
+    .logo{
+    float: none;
+    text-align: center;
+  }
+ header ul li {
+      float: none;
+      text-align: center;
+
+  }
+
+  .flowers{
+    float:none ;
+    text-align: left;
+    display: inline;
+    
+  } 
+
+   }
+*{
+    margin: 0;
+    padding: 0; 
+    font-family:'Lora' ;
+}
+body{
+    background-image: url(pexels-pixabay-414660.jpg);
+    background-size: cover;
+   height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+header ul {
+    
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+   
+}
+header ul li{
+    margin-right:30px ;
+    float: right;
+}
+header ul li a{
+    padding: 6px 15px ;
+    border-radius:20px ;
+}
+header ul li a:hover,#active{
+  background: #fff;
+  color: #d13267;
+}
+
+.flowers{
+     width: 1000px; height: 500px ; margin: auto; margin-top: 100px;
+}
+.flowers1{
+    width: 330px; height: 500px ; background-color: pink; margin: auto; float: left;margin-left: 3px;
+}
+.flowers2{
+    width: 330px; height: 500px ; background-color: pink; margin: auto; float: left;margin-left: 3px;
+}
+.flowers3{
+    width: 330px; height: 500px ; background-color: pink; margin: auto; float: left;margin-left: 3px;
+}
+.flowers h1{
+    text-align: center; padding: 15px;margin-top: 20px; color: #d64877; 
+}
+.flowers button{
+    font-size: 25px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 115px;
+     border-radius: 5px;
+     border: 2px solid transparent;
+     
+}
+.flowers a{
+color: #d64877;
+}
+
+.flowers button:hover {
+   background-color: black;
+}
+
